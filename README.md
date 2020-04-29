@@ -8,4 +8,5 @@ Day 5: #100DaysOfCode progress: today I practiced more on Collections module. To
 Day 6: #100DaysOfCode progress: today I worked on how to parse CSV files using writer, reader and DictReader methods, and played around with my movie rating dataset. \
 Day 7: #100DaysOfCode progress: The next couple of days I will be working on python data structures.Today I refreshed my skills on how to parse lists, tuples and dictionaries.\
 Day 8: #100DaysOfCode progress: Today I continued my work on python data structures by solving the PyBites code challenge https://codechalleng.es/bites/21/ \
-Day 9: #100DaysOfCode progress: somemore  practice on python data structures Dits and lists.
+Day 9: #100DaysOfCode progress: somemore  practice on python data structures Dits and lists.\
+Day 10:#100DaysOfCode progress: Pytest practice-1
