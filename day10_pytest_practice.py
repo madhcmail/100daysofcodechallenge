@@ -9,7 +9,7 @@ def func(x):
 
 
 def test_fun():
-    assert func(3) == 8
+    assert func(2) == 8
 
 
 def test_fun2():
