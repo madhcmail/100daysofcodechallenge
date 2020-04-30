@@ -9,4 +9,5 @@ Day 6: #100DaysOfCode progress: today I worked on how to parse CSV files using w
 Day 7: #100DaysOfCode progress: The next couple of days I will be working on python data structures.Today I refreshed my skills on how to parse lists, tuples and dictionaries.\
 Day 8: #100DaysOfCode progress: Today I continued my work on python data structures by solving the PyBites code challenge https://codechalleng.es/bites/21/ \
 Day 9: #100DaysOfCode progress: somemore  practice on python data structures Dits and lists.\
-Day 10:#100DaysOfCode progress: Pytest practice-1
+Day 10:#100DaysOfCode progress: Pytest practice-1 \
+Day11:#100DaysOfCode progress: Today I wrote #coding test cases using pytest module for the code challenge that I did on day8- Query a nested data structure.
