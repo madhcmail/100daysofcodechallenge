@@ -10,4 +10,5 @@ Day 7: #100DaysOfCode progress: The next couple of days I will be working on pyt
 Day 8: #100DaysOfCode progress: Today I continued my work on python data structures by solving the PyBites code challenge https://codechalleng.es/bites/21/ \
 Day 9: #100DaysOfCode progress: somemore  practice on python data structures Dits and lists.\
 Day 10:#100DaysOfCode progress: Pytest practice-1 \
-Day11:#100DaysOfCode progress: Today I wrote #coding test cases using pytest module for the code challenge that I did on day8- Query a nested data structure.
+Day 11:#100DaysOfCode progress: Today I wrote #coding test cases using pytest module for the code challenge that I did on day8- Query a nested data structure.\
+Day12: #100DaysOfCode progress: Today I continued to explored more on different options to run the pytest module, run only specific sub test cases , run using substrings, how to parametrize.
