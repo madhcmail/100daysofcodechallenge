@@ -11,4 +11,5 @@ Day 8: #100DaysOfCode progress: Today I continued my work on python data structu
 Day 9: #100DaysOfCode progress: somemore  practice on python data structures Dits and lists.\
 Day 10:#100DaysOfCode progress: Pytest practice-1 \
 Day 11:#100DaysOfCode progress: Today I wrote #coding test cases using pytest module for the code challenge that I did on day8- Query a nested data structure.\
-Day12: #100DaysOfCode progress: Today I continued to explored more on different options to run the pytest module, run only specific sub test cases , run using substrings, how to parametrize.
+Day 12: #100DaysOfCode progress: Today I continued to explored more on different options to run the pytest module, run only specific sub test cases , run using substrings, how to parametrize.\
+Day 13: Today I started learning about object oriented programing. How to write classes, how to create instances, accessing the attributes and methods.
