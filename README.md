@@ -15,4 +15,5 @@ Day 12: #100DaysOfCode progress: Today I continued to explored more on different
 Day 13: Today I started learning about object oriented programing. How to write classes, how to create instances, accessing the attributes and methods.\
 Day 14: Today I continued learning more on classes, inheritance and overriding methods. Extended my yesterday's code with these new concepts.\
 Day 15: Today I wrote Guess Randaom number game.\
-Day 16: Today I worked on a code challenge in Hacker Rank https://www.hackerrank.com/challenges/word-order/problem. 
+Day 16: Today I worked on a code challenge in Hacker Rank https://www.hackerrank.com/challenges/word-order/problem. \
+Day 17: Today I learned about  List comprehensions and how to write them. Practiced these by working on a most common words in a text file.\
