@@ -17,3 +17,6 @@ Day 14: Today I continued learning more on classes, inheritance and overriding m
 Day 15: Today I wrote Guess Randaom number game.\
 Day 16: Today I worked on a code challenge in Hacker Rank https://www.hackerrank.com/challenges/word-order/problem. \
 Day 17: Today I learned about  List comprehensions and how to write them. Practiced these by working on a most common words in a text file.\
+Day 18: #100DaysOfCode progress: Today I learned about python generators,  practiced on  list comprehensions, and finished PyBite code challenge https://codechalleng.es/bites/5/
+Day 19: #100DaysOfCode progress: Today I worked on dictionary comprehensions
+Day 20: #100DaysOfCode progress: Today I started working on Regular Expression which is very important module. This is required for me to learn before I solve by yesterday's code challenge https://pybit.es/codechallenge11.html which is on advanced generators.
