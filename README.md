@@ -21,4 +21,5 @@ Day 18: #100DaysOfCode progress: Today I learned about python generators,  pract
 Day 19: #100DaysOfCode progress: Today I worked on dictionary comprehensions
 Day 20: #100DaysOfCode progress: Today I started working on Regular Expression which is very important module. This is required for me to learn before I solve by yesterday's code challenge https://pybit.es/codechallenge11.html which is on advanced generators.\
 Day 21: #100DaysOfCode progress: Today I continued my learning on regex and practiced on how to parse text using some useful regex methods and quantifiers.\
-Day 22: #100DaysOfCode progress: Today I did more practice on the regex character sets,custom character sets and quantifiers.
+Day 22: #100DaysOfCode progress: Today I did more practice on the regex character sets,custom character sets and quantifiers.\
+Day 23: #100DaysOfCode progress: Today I learnt about few more methods in regex like compile, finditer, groups.
