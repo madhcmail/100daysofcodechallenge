@@ -24,3 +24,4 @@ Day 21: #100DaysOfCode progress: Today I continued my learning on regex and prac
 Day 22: #100DaysOfCode progress: Today I did more practice on the regex character sets,custom character sets and quantifiers.\
 Day 23: #100DaysOfCode progress: Today I learnt about few more methods in regex like compile, finditer, groups.\
 Day 24: #100DaysOfCode progress: Today Ihave completed the code challenge on converting unix pipeline to python using generators and regular expressions  https://pybit.es/codechallenge11.html.
+Day 25: #100DaysOfCode progress: Today I started learning about itertools module and did some practice on the methods like cycle,product, permutations and combinations.
