@@ -26,4 +26,5 @@ Day 23: #100DaysOfCode progress: Today I learnt about few more methods in regex 
 Day 24: #100DaysOfCode progress: Today Ihave completed the code challenge on converting unix pipeline to python using generators and regular expressions  https://pybit.es/codechallenge11.html.\
 Day 25: #100DaysOfCode progress: Today I started learning about itertools module and did some practice on the methods like cycle,product, permutations and combinations.\
 Day 26: #100DaysOfCode progress: Today I worked on creating a Traffic lights script using itertools and cycle method.\
-Day 27: #100DaysOfCode progress: Today I worked on some code challenges related to itertools module.Here are the code challenges
+Day 27: #100DaysOfCode progress: Today I worked on some code challenges related to itertools module.Here are the code challenges\
+Day 28: #100DaysOfCode progress: Today I learned about four different ways of passing arguments to  functions.
