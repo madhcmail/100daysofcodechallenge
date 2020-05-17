@@ -27,4 +27,6 @@ Day 24: #100DaysOfCode progress: Today Ihave completed the code challenge on con
 Day 25: #100DaysOfCode progress: Today I started learning about itertools module and did some practice on the methods like cycle,product, permutations and combinations.\
 Day 26: #100DaysOfCode progress: Today I worked on creating a Traffic lights script using itertools and cycle method.\
 Day 27: #100DaysOfCode progress: Today I worked on some code challenges related to itertools module.Here are the code challenges\
-Day 28: #100DaysOfCode progress: Today I learned about four different ways of passing arguments to  functions.https://docs.python-guide.org/writing/style/#function-arguments
+Day 28: #100DaysOfCode progress: Today I learned about four different ways of passing arguments to  functions.https://docs.python-guide.org/writing/style/#function-arguments \
+Day 29: #100DaysOfCode progress: Today I started learning about decorators in python and the syntax of decorators. Will learn more about these in next couple of days. 
+
