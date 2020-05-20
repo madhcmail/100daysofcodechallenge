@@ -31,3 +31,4 @@ Day 28: #100DaysOfCode progress: Today I learned about four different ways of pa
 Day 29: #100DaysOfCode progress: Today I started learning about decorators in python and the syntax of decorators. Will learn more about these in next couple of days. \
 Day 30: #100DaysOfCode progress: Today I learned about Types of decorators like basic decorators, decorator function with single parameter, multiple parameters and how to pass a parameter to decorator. \
 Day 31: #100DaysOfCode progress: Today I learned about how to stack multiple decorators, and how to undecorate or use the original function from a decorated one. 
+Day 32: Today I followed a link on decorators https://gist.github.com/Zearin/2f40b7b9cfc51132851a and solved https://codechalleng.es/bites/22/
