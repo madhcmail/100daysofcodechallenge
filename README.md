@@ -32,4 +32,5 @@ Day 29: #100DaysOfCode progress: Today I started learning about decorators in py
 Day 30: #100DaysOfCode progress: Today I learned about Types of decorators like basic decorators, decorator function with single parameter, multiple parameters and how to pass a parameter to decorator. \
 Day 31: #100DaysOfCode progress: Today I learned about how to stack multiple decorators, and how to undecorate or use the original function from a decorated one. \
 Day 32: Today I followed a link on decorators https://gist.github.com/Zearin/2f40b7b9cfc51132851a and solved https://codechalleng.es/bites/22/ \
-Day 33: Today I learned about how to handle errors in python and did some parctice on error handling with try and except blocks.
+Day 33: Today I learned about how to handle errors in python and did some parctice on error handling with try and except blocks.\
+Day 34:#100DaysOfCode progress: Today I learned about logging in python and how to log different levels of information using python logging module. 
