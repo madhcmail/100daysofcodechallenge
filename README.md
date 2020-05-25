@@ -34,4 +34,7 @@ Day 31: #100DaysOfCode progress: Today I learned about how to stack multiple dec
 Day 32: Today I followed a link on decorators https://gist.github.com/Zearin/2f40b7b9cfc51132851a and solved https://codechalleng.es/bites/22/ \
 Day 33: Today I learned about how to handle errors in python and did some parctice on error handling with try and except blocks.\
 Day 34:#100DaysOfCode progress: Today I learned about logging in python and how to log different levels of information using python logging module. \
-Day 35:#100DaysOfCode progress: Today I learned more about logging and practiced on loggers, file handlers and formatters
+Day 35:#100DaysOfCode progress: Today I learned more about logging and practiced on loggers, file handlers and formatters \
+Day 36: #100DaysOfCode progress: Today I worked on solving a code challenge in hacker rank
+https://www.hackerrank.com/challenges/validating-credit-card-number/problem \
+Day 37: #100DaysOfCode progress: Today I started learning about CSV module by parsing through a US weather dataset from fivethirtyeight github repository(https://github.com/fivethirtyeight/data). Will continue working on this dataset on how to convert the csv data in to some usable form and find answers to some questions like top hottest, coldest, wettest days. 
