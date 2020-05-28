@@ -1,6 +1,7 @@
 import csv
 import os
 import collections
+from typing import List
 
 
 data = []
@@ -46,6 +47,17 @@ def parse_row(row):
     )
     return record
 
-init()
 
-print(data)
+def hot_days() -> List[Record]:
+    # sorted will sort the list in ascending order. so we need the top highest by reversing the order.
+    # For that use negation in the lambda function
+    return sorted(data, key=lambda r: -r.actual_max_temp)
+
+
+def cold_days() -> List[Record]:
+    return sorted(data, key=lambda r: r.actual_max_temp)
+
+
+def wet_days() -> List[Record]:
+    return sorted(data, key=lambda r: -r.actual_precipitation)
+
