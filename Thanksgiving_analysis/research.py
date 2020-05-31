@@ -1,7 +1,7 @@
 import os
 import csv
 import collections
-from typing import List
+
 
 Record = collections.namedtuple('Record', 'region, income_range, main_dish,sides')
 data = []
@@ -23,7 +23,7 @@ def init():
 def parse_data(row):
     sides = []
     for k, v in row.items():
-        if 'side' in k:
+        if 'side' in k and v != '':
             sides.append(v)
     record = Record(
         region=row['US Region'],
@@ -31,24 +31,43 @@ def parse_data(row):
         main_dish=row['What is typically the main dish at your Thanksgiving dinner?'],
         sides=sides
         )
-    return (record)
+    return record
 
 
 regions = set()
 income = set()
+main_dishes = []
+side_dishes = []
 
 
-def get_regions() -> List[Record]:
-    for r in data:
-        regions.add(r.region)
-    return regions
+def get_regions():
+    for row in data:
+        if row.region != '':
+            regions.add(row.region)
+    return list(sorted(regions))
 
 
-def get_income_ranges() -> List[Record]:
+def get_income_ranges():
     for i in data:
-        income.add(i.income_range)
-    return income
+        if i.income_range != '' and i.income_range != 'Prefer not to answer':
+            income.add(i.income_range)
+
+    return list(sorted(income))
 
 
+def get_menu(user_input_region, user_input_income):
+    for row in data:
+        if row.region == user_input_region and row.income_range == user_input_income:
+            main_dishes.append(row.main_dish)
+    cnt_main = collections.Counter(main_dishes)
+    return cnt_main.most_common(1)
 
 
+def get_sides(user_input_region, user_input_income):
+    for row in data:
+        if row.region == user_input_region and row.income_range == user_input_income:
+            for dish in row.sides:
+                side_dishes.append(dish)
+    #print(side_dishes)
+    cnt_sides = collections.Counter(side_dishes)
+    return cnt_sides.most_common(5)
