@@ -2,11 +2,11 @@ import os
 import csv
 import collections
 
-
 Record = collections.namedtuple('Record', 'region, income_range, main_dish,sides')
 data = []
 
 
+# parse the CSV data and create a list of named tuples with the required fields
 def init():
     base_folder = os.path.dirname(__file__)
     filename = os.path.join(base_folder, 'data', 'thanksgiving_data.csv')
@@ -20,6 +20,7 @@ def init():
             data.append(record)
 
 
+# Below function creates a named tuple
 def parse_data(row):
     sides = []
     for k, v in row.items():
@@ -34,40 +35,40 @@ def parse_data(row):
     return record
 
 
-regions = set()
-income = set()
-main_dishes = []
-side_dishes = []
+regions = set()  # get unique regions
+income = set()  # get unique income
+
+us_regions = {}  # dictionary for user to pick the region key and validate the user input
+us_income_range = {}  # dictionary for user to pick the income_range key and validate the user input
+
+main_dishes = []  # list to count the most common main dishes
+side_dishes = []  # list to count the most common side dishes
 
 
-def get_regions():
+# get the available regions and income ranges from the data set for the user to choose
+def get_regions_and_income():
     for row in data:
         if row.region != '':
             regions.add(row.region)
-    return list(sorted(regions))
+        if row.income_range != '' and row.income_range != 'Prefer not to answer':
+            income.add(row.income_range)
+
+    for idx, each_region in enumerate(list(sorted(regions)), 1):
+        us_regions[str(idx)] = each_region
+    for idx, income_r in enumerate(list(sorted(income)), 1):
+        us_income_range[str(idx)] = income_r
+
+    return us_regions, us_income_range
 
 
-def get_income_ranges():
-    for i in data:
-        if i.income_range != '' and i.income_range != 'Prefer not to answer':
-            income.add(i.income_range)
-
-    return list(sorted(income))
-
-
+# function to return the main dish and sides dishes for the user input region and income_range
 def get_menu(user_input_region, user_input_income):
     for row in data:
         if row.region == user_input_region and row.income_range == user_input_income:
             main_dishes.append(row.main_dish)
-    cnt_main = collections.Counter(main_dishes)
-    return cnt_main.most_common(1)
-
-
-def get_sides(user_input_region, user_input_income):
-    for row in data:
-        if row.region == user_input_region and row.income_range == user_input_income:
             for dish in row.sides:
                 side_dishes.append(dish)
-    #print(side_dishes)
+    cnt_main = collections.Counter(main_dishes)
     cnt_sides = collections.Counter(side_dishes)
-    return cnt_sides.most_common(5)
+    return cnt_main.most_common(1), cnt_sides.most_common(5)
+

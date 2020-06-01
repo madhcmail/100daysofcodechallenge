@@ -3,42 +3,51 @@ import research
 
 def main():
     # Initialize the data
-    print("Analysis on Thanksgiving holiday dishes")
-    print()
+    print("Analysis on Thanksgiving holiday dishes:")
     research.init()
 
-    # ToDO: Print the available regions
-    us_regions = research.get_regions()
-    print("Available Regions: ")
-    for each_region in us_regions:
-        print(each_region)
-
+    # Print the available unique regions for users to select
+    us_regions, us_income_range = research.get_regions_and_income()
+    print("Regions:")
+    print(us_regions)
+    print()
+    # Print the available unique income ranges for users to select
+    print("Income_Ranges:")
+    print(us_income_range)
     print()
 
-    # TODO: Get user input on the region
-    user_input_region = input("Select your region from the above available regions: ").title()
+    # Ask user to input teh key of specific region
+    user_input_region = input("Select your region key from the above available regions(Example: 1): ")
+
+    while True:
+        if user_input_region == '' or user_input_region not in us_regions.keys():
+            user_input_region = input("Select your region key from the above available regions(Example: 1): ")
+        else:
+            break
+
+    # Ask user for input the  key of specific income_range
+    user_input_income = input("Select the key for Income range from the above available regions(Example: 1): ")
+    while True:
+        if user_input_income == '' or user_input_income not in us_income_range.keys():
+            user_input_income = input("Select the key for Income range from the above available regions(Example: 1): ")
+        else:
+            break
     print()
 
-    # TODO: Print the income ranges available
-    income_ranges = research.get_income_ranges()
-    print(f"Income_Ranges: {income_ranges}")
-    print()
-    # TODO: Ask for income range
-    user_input_income = input("How much total combined money did all members of your HOUSEHOLD earn last year?")
-    print()
-    # TODO: Print out the region specific menu
-    menu = research.get_menu(user_input_region,user_input_income)
+    # Predict the region specific main dish and 5 side dishes
+    main_dishes, sides_dish = research.get_menu(us_regions[user_input_region], us_income_range[user_input_income])
 
-    print(f"Thanksgiving dishes in the region '{user_input_region}' with income range of ({user_input_income}):")
-    print(f"Main dish: {menu[0][0]}")
-
-    # TODO: Print the top 5 side dishes
-    sides_dish = research.get_sides(user_input_region, user_input_income)
-    print("Side dishes:")
-    for idx, s_dish in enumerate(sides_dish):
-        print(idx+1,s_dish[0])
-
-
+    if len(main_dishes) > 0 and len(sides_dish) > 0:
+        print(f"Thanksgiving dishes in the region '{us_regions[user_input_region]}' "
+              f"with income range of ({us_income_range[user_input_income]}):")
+        print()
+        print(f"Main dish is: {main_dishes[0][0]}")
+        print("Side dishes are:")
+        for idx, s_dish in enumerate(sides_dish):
+            print(idx + 1, s_dish[0])
+    else:
+        print(f"No Menu available for the region {us_regions[user_input_region]} and "
+              f"with income range between {us_income_range[user_input_income]}.")
 
 
 if __name__ == '__main__':
