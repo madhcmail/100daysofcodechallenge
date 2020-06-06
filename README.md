@@ -47,3 +47,4 @@ Day44:#100DaysOfCode progress: Today I started learning a new python module Json
 Day45:#100DaysOfCode progress: Today I continued my learning and coding on parsing the nested structures in a json file. Tried practicing different methods, load(),loads(),dump(),dumps().\
 Day46:#100DaysOfCode progress: Today I did coding by solving the below code challenge in hacker rank. Here is my today's commit https://www.hackerrank.com/challenges/validate-list-of-email-address-with-filter/problem \
 Day47: #100DaysOfCode progress: Today I did work on Json search based APIs. I did use a restful moviedb search service api and try to parse though it and list down the titles and imdb_scores.
+Day48:#100DaysOfCode progress: Today I learned and practiced on python HTTP Requests library (https://requests.readthedocs.io/en/master/) like how to make request, passing parameters, POST requests, basic-auth methods(http://httpbin.org/)
