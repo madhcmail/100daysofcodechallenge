@@ -47,4 +47,13 @@ Day44:#100DaysOfCode progress: Today I started learning a new python module Json
 Day45:#100DaysOfCode progress: Today I continued my learning and coding on parsing the nested structures in a json file. Tried practicing different methods, load(),loads(),dump(),dumps().\
 Day46:#100DaysOfCode progress: Today I did coding by solving the below code challenge in hacker rank. Here is my today's commit https://www.hackerrank.com/challenges/validate-list-of-email-address-with-filter/problem \
 Day47: #100DaysOfCode progress: Today I did work on Json search based APIs. I did use a restful moviedb search service api and try to parse though it and list down the titles and imdb_scores.
-Day48:#100DaysOfCode progress: Today I learned and practiced on python HTTP Requests library (https://requests.readthedocs.io/en/master/) like how to make request, passing parameters, POST requests, basic-auth methods(http://httpbin.org/)
+Day48:#100DaysOfCode progress: Today I learned and practiced on python HTTP Requests library (https://requests.readthedocs.io/en/master/) like how to make request, passing parameters, POST requests, basic-auth methods(http://httpbin.org/) \
+Day49: #100DaysOfCode progress: Today I did coding on a podcast search service API (search.talkpython.fm) where I have achieved the following.
+
+	1. Get a search word from the user
+	2. Call the search service via requests
+	3. Verify the success of this
+	4. Return basic dictionaries and list the resulting titles
+	5. Refactor the code using Named Tuples for search results 
+	6. Once the results are displayed, ask the user if they want to view any of them and  use the  URL from the service response and open the users default browser to that page (Web browser library can be used to achieve this).
+
