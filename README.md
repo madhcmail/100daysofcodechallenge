@@ -56,4 +56,7 @@ Day49: #100DaysOfCode progress: Today I did coding on a podcast search service A
 	4. Return basic dictionaries and list the resulting titles
 	5. Refactor the code using Named Tuples for search results 
 	6. Once the results are displayed, ask the user if they want to view any of them and  use the  URL from the service response and open the users default browser to that page (Web browser library can be used to achieve this). \
-Day 50: #100DaysOfCode progress: Today I learned about bs4(BeautifulSoup) module for web scrapping in python and then I did practice by scrapping Fox News site and try to get all the news headlines. With just a single line of code we can get all the headlines. It's super fun and interesting!.
+Day 50: #100DaysOfCode progress: Today I learned about bs4(BeautifulSoup) module for web scrapping in python and then I did practice by scrapping Fox News site and try to get all the news headlines. With just a single line of code we can get all the headlines. It's super fun and interesting!. \
+Day 51: Day 51: #100DaysOfCode progress: Today I did the below code challenge in hacker rank
+https://www.hackerrank.com/challenges/compress-the-string/problem
+
