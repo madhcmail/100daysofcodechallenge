@@ -59,4 +59,5 @@ Day49: #100DaysOfCode progress: Today I did coding on a podcast search service A
 Day 50: #100DaysOfCode progress: Today I learned about bs4(BeautifulSoup) module for web scrapping in python and then I did practice by scrapping Fox News site and try to get all the news headlines. With just a single line of code we can get all the headlines. It's super fun and interesting!. \
 Day 51: Day 51: #100DaysOfCode progress: Today I did the below code challenge in hacker rank
 https://www.hackerrank.com/challenges/compress-the-string/problem
-Day52:#100DaysOfCode progress: Today I did  learn more in web scrapping using bs4 module and try to scrape date and store it in csv file. 
+Day52:#100DaysOfCode progress: Today I did  learn more in web scrapping using bs4 module and try to scrape date and store it in csv file. \
+Day53:#100DaysOfCode progress: Today I did learn about Feedparser module and did coding practice by parsing STEAMPowdered newreleases RSS feeds(https://store.steampowered.com/feeds/newreleases.xml) and pulled the details like published date, title and link.
