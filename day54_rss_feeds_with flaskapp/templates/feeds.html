@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+
+    }
+    td, th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+    tr:nth-child(even) {
+      background-color: #dddddd;
+      }
+    </style>
+</head>
+<body>
+<h2 style="color:Tomato;">STEAM NewReleases Feed:</h2>
+
+    <table style="width:100%">
+        <tr style="background-color:rgb(255, 99, 71)">
+            <th>PublishedDate</th>
+            <th>Title</th>
+            <th>Link</th>
+        </tr>
+        {% for feed in feeds %}
+            <tr>
+                <th>{{ feed.published }}</th>
+                <th>{{ feed.title }}</th>
+                <th><a href ={{ feed.link }}>{{ feed.link }}</a></th>
+            </tr>
+        {% endfor %}
+    </table>
+
+</body>
+</html>
