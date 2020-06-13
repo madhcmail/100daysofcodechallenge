@@ -58,8 +58,8 @@ Day49: #100DaysOfCode progress: Today I did coding on a podcast search service A
 	6. Once the results are displayed, ask the user if they want to view any of them and  use the  URL from the service response and open the users default browser to that page (Web browser library can be used to achieve this). \
 Day 50: #100DaysOfCode progress: Today I learned about bs4(BeautifulSoup) module for web scrapping in python and then I did practice by scrapping Fox News site and try to get all the news headlines. With just a single line of code we can get all the headlines. It's super fun and interesting!. \
 Day 51: Day 51: #100DaysOfCode progress: Today I did the below code challenge in hacker rank
-https://www.hackerrank.com/challenges/compress-the-string/problem
+https://www.hackerrank.com/challenges/compress-the-string/problem \
 Day52:#100DaysOfCode progress: Today I did  learn more in web scrapping using bs4 module and try to scrape date and store it in csv file. \
-Day53:#100DaysOfCode progress: Today I did learn about Feedparser module and did coding practice by parsing STEAMPowdered newreleases RSS feeds(https://store.steampowered.com/feeds/newreleases.xml) and pulled the details like published date, title and link.
-Day 54: #100DaysOfCode progress: Today I did use the day53 RSS feed parser code and try to create a simple Flask app and displayed the output in a table format in the browser.
-Day 55:#100DaysOfCode progress: Today I worked on the code challenge on regex expressions https://codechalleng.es/bites/2/
+Day53:#100DaysOfCode progress: Today I did learn about Feedparser module and did coding practice by parsing STEAMPowdered newreleases RSS feeds(https://store.steampowered.com/feeds/newreleases.xml) and pulled the details like published date, title and link. \
+Day 54: #100DaysOfCode progress: Today I did use the day53 RSS feed parser code and try to create a simple Flask app and displayed the output in a table format in the browser. \
+Day 55:#100DaysOfCode progress: Today I worked on the code challenge on regex expressions https://codechalleng.es/bites/2/ \
