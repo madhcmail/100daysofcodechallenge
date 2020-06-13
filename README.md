@@ -63,3 +63,5 @@ Day52:#100DaysOfCode progress: Today I did  learn more in web scrapping using bs
 Day53:#100DaysOfCode progress: Today I did learn about Feedparser module and did coding practice by parsing STEAMPowdered newreleases RSS feeds(https://store.steampowered.com/feeds/newreleases.xml) and pulled the details like published date, title and link. \
 Day 54: #100DaysOfCode progress: Today I did use the day53 RSS feed parser code and try to create a simple Flask app and displayed the output in a table format in the browser. \
 Day 55:#100DaysOfCode progress: Today I worked on the code challenge on regex expressions https://codechalleng.es/bites/2/ \
+Day56:#100DaysOfCode progress: Today I started exploring the SMTPLIB library and tried to set up the (gmail app id/password) and did coding by sending a simple test email using this SMTPLIB  
+Library.Best Practice: Don't expose your id's and passwords. Instead set them as environment variables and try using python OS module to retrieve those id/pwd into your code.
