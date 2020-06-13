@@ -61,3 +61,5 @@ Day 51: Day 51: #100DaysOfCode progress: Today I did the below code challenge in
 https://www.hackerrank.com/challenges/compress-the-string/problem
 Day52:#100DaysOfCode progress: Today I did  learn more in web scrapping using bs4 module and try to scrape date and store it in csv file. \
 Day53:#100DaysOfCode progress: Today I did learn about Feedparser module and did coding practice by parsing STEAMPowdered newreleases RSS feeds(https://store.steampowered.com/feeds/newreleases.xml) and pulled the details like published date, title and link.
+Day 54: #100DaysOfCode progress: Today I did use the day53 RSS feed parser code and try to create a simple Flask app and displayed the output in a table format in the browser.
+Day 55:#100DaysOfCode progress: Today I worked on the code challenge on regex expressions https://codechalleng.es/bites/2/
