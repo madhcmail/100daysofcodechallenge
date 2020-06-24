@@ -74,5 +74,5 @@ Day 62:#100DaysOfCode progress: Today I started exploring more on APIs and how t
 DAY 63:#100DaysOfCode progress: Today I tried to pull a bunch of movie metadata using TMDB API. I registered for API key and pulled the movie data using requests and JSON library and writing data to a JSON file. I was able to pull only 1 page data from the API and trying to explore to get more search results. Will continues to work on this tomorrow.
 Here is my GitHub link for today's code https://github.com/madhcmail/100daysofcodechallenge/blob/master/explore_apis/pull_tmdb_movies.py \
 Day 64:#100DaysOfCode progress: Today I am still working on writing the movie metadata results of multiple API calls in to json file. I am facing issues while doing so.. Will continue working on it tomorrow. \
-Day 65: #100DaysOfCode progress: Today I finally able to pull the movie metadata results of multiple API calls in to json file. The key here is we need to properly understand the data before pulling it. I Will analyze the data that I pulled into a file tomorrow.
-
+Day 65: #100DaysOfCode progress: Today I finally able to pull the movie metadata results of multiple API calls in to json file. The key here is we need to properly understand the data before pulling it. I Will analyze the data that I pulled into a file tomorrow.\
+Day 66:#100DaysOfCode progress: Today I tried to pull the required attributes like title, overview, release date, popularity, etc.. from the movie metadata API.
