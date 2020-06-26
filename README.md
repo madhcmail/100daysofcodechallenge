@@ -76,4 +76,6 @@ Here is my GitHub link for today's code https://github.com/madhcmail/100daysofco
 Day 64:#100DaysOfCode progress: Today I am still working on writing the movie metadata results of multiple API calls in to json file. I am facing issues while doing so.. Will continue working on it tomorrow. \
 Day 65: #100DaysOfCode progress: Today I finally able to pull the movie metadata results of multiple API calls in to json file. The key here is we need to properly understand the data before pulling it. I Will analyze the data that I pulled into a file tomorrow.\
 Day 66:#100DaysOfCode progress: Today I tried to pull the required attributes like title, overview, release date, popularity, etc.. from the movie metadata API.\
-Day67:#100DaysOfCode progress: Today I started learning on python Flask  to create apps.I have created a virtual environment and installed Flask module and created a simple application. Will learn more about this in the next couple of days.
+Day67:#100DaysOfCode progress: Today I started learning on python Flask  to create apps.I have created a virtual environment and installed Flask module and created a simple application. Will learn more about this in the next couple of days.\
+Day68:Today I decided to do a small project using Flask framework like creation of Blog page to understand the complete flow of this micro web framework. I am learning the basic on this and parallelly started setting the initial setup for this blog creation. The next couple of days will work on this Blog creation using Flask.
+Here is my today's commit
