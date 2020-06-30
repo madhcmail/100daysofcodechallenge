@@ -78,4 +78,7 @@ Day 65: #100DaysOfCode progress: Today I finally able to pull the movie metadata
 Day 66:#100DaysOfCode progress: Today I tried to pull the required attributes like title, overview, release date, popularity, etc.. from the movie metadata API.\
 Day67:#100DaysOfCode progress: Today I started learning on python Flask  to create apps.I have created a virtual environment and installed Flask module and created a simple application. Will learn more about this in the next couple of days.\
 Day68:Today I decided to do a small project using Flask framework like creation of Blog page to understand the complete flow of this micro web framework. I am learning the basic on this and parallelly started setting the initial setup for this blog creation. The next couple of days will work on this Blog creation using Flask.\
-Day69:#100DaysOfCode progress: Today I started learning about jinja templates in Flask python and how to call a  dictionary data into template. 
+Day69:#100DaysOfCode progress: Today I started learning about jinja templates in Flask python and how to call a  dictionary data into template. \
+Day 70:#100DaysOfCode progress: Today I have added the CSS framework Bootstrap styles to my Blog web application and also how to add custom CSS styles using Flask url_for function.\
+Day 71: #100DaysOfCode progress: Today I have added some more CSS styles to my  Blog web application using python Flask.\
+Day 72:#100DaysOfCode progress: Today I have worked on creating forms(Registration and Login) using Flask WTForms to my Blog web application. I have also added the validators to the fields like(username, email, password). The WTforms module in Flask provides all these capabilities and removes the hassle of creating from scratch. 
