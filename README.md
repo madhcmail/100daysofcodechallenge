@@ -85,4 +85,5 @@ Day 72:#100DaysOfCode progress: Today I have worked on creating forms(Registrati
 Day 73:#100DaysOfCode progress: Today I have created html page(register.html) in my Blog web application by using some of the bootstrap form classes and also able to  render this page upon calling that particular link using Flask python.\
 Day 74:#100DaysOfCode progress: Today I have worked on including some validations to the form fields in my register form(register.html) using bootstrap form classes and Flask redirect modules.\
 Day 75: #100DaysOfCode progress: Today I have worked on including a login page to my Blog web application using bootstrap and Flask python. \
-Day 76: #100DaysOfCode progress: Today I have learned on how to connect to  sqlite3 database though python and practiced creating a database connection, cursor, and creating tables through python.
+Day 76: #100DaysOfCode progress: Today I have learned on how to connect to  sqlite3 database though python and practiced creating a database connection, cursor, and creating tables through python.\
+Day 77:#100DaysOfCode progress: Today I tried to do bulk insert csv data into the sqlite3 table using Python CSV and sqlite3 modules. There are two methods available to insert the data into table execute(single insert) and executemany (batch insert).\
