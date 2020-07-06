@@ -82,4 +82,7 @@ Day69:#100DaysOfCode progress: Today I started learning about jinja templates in
 Day 70:#100DaysOfCode progress: Today I have added the CSS framework Bootstrap styles to my Blog web application and also how to add custom CSS styles using Flask url_for function.\
 Day 71: #100DaysOfCode progress: Today I have added some more CSS styles to my  Blog web application using python Flask.\
 Day 72:#100DaysOfCode progress: Today I have worked on creating forms(Registration and Login) using Flask WTForms to my Blog web application. I have also added the validators to the fields like(username, email, password). The WTforms module in Flask provides all these capabilities and removes the hassle of creating from scratch. \
-Day 73:#100DaysOfCode progress: Today I have created html page(register.html) in my Blog web application by using some of the bootstrap form classes and also able to  render this page upon calling that particular link using Flask python.
+Day 73:#100DaysOfCode progress: Today I have created html page(register.html) in my Blog web application by using some of the bootstrap form classes and also able to  render this page upon calling that particular link using Flask python.\
+Day 74:#100DaysOfCode progress: Today I have worked on including some validations to the form fields in my register form(register.html) using bootstrap form classes and Flask redirect modules.\
+Day 75: #100DaysOfCode progress: Today I have worked on including a login page to my Blog web application using bootstrap and Flask python. \
+Day 76: #100DaysOfCode progress: Today I have learned on how to connect to  sqlite3 database though python and practiced creating a database connection, cursor, and creating tables through python.
