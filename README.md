@@ -87,3 +87,6 @@ Day 74:#100DaysOfCode progress: Today I have worked on including some validation
 Day 75: #100DaysOfCode progress: Today I have worked on including a login page to my Blog web application using bootstrap and Flask python. \
 Day 76: #100DaysOfCode progress: Today I have learned on how to connect to  sqlite3 database though python and practiced creating a database connection, cursor, and creating tables through python.\
 Day 77:#100DaysOfCode progress: Today I tried to do bulk insert csv data into the sqlite3 table using Python CSV and sqlite3 modules. There are two methods available to insert the data into table execute(single insert) and executemany (batch insert).\
+Day 78:#100DaysOfCode progress: Today I worked on how to edit specific data in a row, alter data in sqlite db which I created yesterday using python module sqlite3.\
+DAy 79:#100DaysOfCode progress: Today I worked on how to do a copy from one table to another table in sqlite3 using Python sqlite3 module. 
+After executing my script, I was not able to see any records in my table though I didn't receive any errors while running the script. It took time to understand what went wrong and finally found that I missed the step of committing the transaction using commit() method . If you don't call this method, anything you did since the last call to commit() is not visible. Lesson learnt!!
