@@ -3,7 +3,7 @@ from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///students.db'
-app.config['SECRET_KEY'] = '80d38a189ec55515f82fcfd74c86455f'
+app.config['SECRET_KEY'] = ''
 
 db = SQLAlchemy(app)
 
@@ -14,8 +14,10 @@ class Students(db.Model):
     location = db.Column('location', db.String)
     zipcode = db.Column('zipcode', db.Integer)
 
-    def __repr__(self):
-        return f" Students('{self.name}','{self.location}','{self.zipcode}')"
+    def __init__(self, name,location, zipcode):
+        self.name = name
+        self.location = location
+        self.zipcode = zipcode
 
 
 @app.route('/', methods=['GET', 'POST'])
