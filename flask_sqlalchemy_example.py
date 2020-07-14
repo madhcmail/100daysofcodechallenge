@@ -14,6 +14,7 @@ class Students(db.Model):
     location = db.Column('location', db.String)
     zipcode = db.Column('zipcode', db.Integer)
 
+    
     def __init__(self, name,location, zipcode):
         self.name = name
         self.location = location
