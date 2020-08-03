@@ -1,4 +1,5 @@
 from flask import Flask, jsonify, request
+import json
 
 app = Flask(__name__)
 
@@ -21,11 +22,14 @@ def getOne(name):
     return jsonify({'language' : langs[0]})
 
 
-@app.route('/lang', methods=['POST'])
+@app.route('/postlang', methods=['POST'])
 def addOne():
-    language = {'name': request.json['name']}
 
-    languages.append(language)
+    data = request.get_json()
+
+    for d in data:
+        name = d['name']
+        languages.append({"name":name})
 
     return jsonify({"languages" : languages})
 
@@ -36,6 +40,12 @@ def editOne(name):
 
     return jsonify({"language":langs[0]})
 
+@app.route('/lang/<string:name>', methods =['DELETE'])
+def removeOne(name):
+    langs = [language for language in languages if language["name"] == name]
+    languages.remove(langs[0])
+
+    return jsonify({'languages':languages})
 
 
 if __name__ == '__main__':
