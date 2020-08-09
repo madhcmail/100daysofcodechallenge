@@ -1,6 +1,7 @@
 from flask import Flask, request, jsonify
 from program import db, app, Blogpost
 from datetime import datetime
+import json
 from flask_sqlalchemy import SQLAlchemy
 
 
@@ -30,6 +31,25 @@ def addposts():
 
         db.session.add(new_post)
         db.session.commit()
+
+
+@app.route('/postjson', methods=['POST'])
+def postjson():
+    print("started reading Json file")
+    with open('mul_postdata.json', "r") as read_file:
+        print("Converting JSON encoded data into Python dictionary")
+        data = json.load(read_file)
+        print(data)
+    for post in data['posts']:
+        print(post)
+        new_post = Blogpost(title=post['title'], sub_title=post['sub_title'], author=post['author'],
+                            date_posted=datetime.now(), content=post['content'])
+        db.session.add(new_post)
+        db.session.commit()
+
+
+@app.route('/lang<int:id>', methods = ['DELETE'])
+def removeOne(id):
 
     return "successful"
 
