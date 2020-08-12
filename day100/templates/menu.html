@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+
+    }
+    td, th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+    tr:nth-child(even) {
+      background-color: #dddddd;
+      }
+    </style>
+</head>
+<body>
+<h2 style="color:Tomato;">Weekly Meal Prep:</h2>
+
+    <table style="width:100%">
+        <tr style="background-color:rgb(255, 99, 71)">
+            <th>DAY</th>
+            <th>Breakfast</th>
+            <th>Lunch</th>
+            <th>Dinner</th>
+        </tr>
+        {% for m,dish in menu.items() %}
+            <tr>
+                <th>{{ m }}</th>
+                <th>{{ dish["Breakfast"][0]}}</th>
+                <th>{{ dish["Lunch"][0] }}</th>
+                <th>{{ dish["Dinner"][0] }}</th>
+            </tr>
+        {% endfor %}
+    </table>
+
+</body>
+</html>
